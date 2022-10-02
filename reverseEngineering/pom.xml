@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.lzp</groupId>
-  <artifactId>MyBatisMapper</artifactId>
+  <groupId>com.test</groupId>
+  <artifactId>reverseEngineering</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>MyBatisMapper</name>
+  <name>reverseEngineering</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -15,7 +15,6 @@
   </properties>
 
   <dependencies>
-
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -40,6 +39,11 @@
       <artifactId>slf4j-log4j12</artifactId>
       <version>1.6.1</version>
     </dependency>
+<!--代码生成工具jar-->
+    <dependency>
+      <groupId>org.mybatis.generator</groupId>
+      <artifactId>mybatis-generator-core</artifactId>
+      <version>1.3.7</version>
+    </dependency>
   </dependencies>
-
 </project>
