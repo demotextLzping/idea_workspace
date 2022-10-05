@@ -3,9 +3,8 @@ package com.lzp.test;
 import com.lzp.mapper.DeptMapper;
 import com.lzp.mapper.EmpDeptMapper;
 import com.lzp.mapper.EmpMapper;
-import com.lzp.pojo.Dept;
-import com.lzp.pojo.Emp;
-import com.lzp.pojo.EmpDept;
+import com.lzp.mapper.UsersMapper;
+import com.lzp.pojo.*;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -55,13 +54,29 @@ public class EmpDeptMapperTest {
     public void findDeptById() throws Exception {
         SqlSession session = factory.openSession();
         DeptMapper mapper = session.getMapper(DeptMapper.class);
-        Dept dept = mapper.findDeptById(30);
+        Dept dept = mapper.findDeptById(10);
         session.close();
-        System.out.println("部门编号: " + dept.getDeptno() + "部门名称: " + dept.getDname() + "部门地址: " + dept.getLoc());
+        System.out.println("部门编号: " + dept.getDeptno() + " 部门名称: " + dept.getDname() + " 部门地址: " + dept.getLoc());
         if (dept.getEmps() != null) {
             for (Emp emp : dept.getEmps()) {
-                System.out.println(emp.getEmpno()  + " "+emp.getEname()+" " + emp.getSal());
+                System.out.println(emp.getEmpno() + " " + emp.getEname() + " " + emp.getSal());
             }
         }
+    }
+
+    @Test
+    public void test() throws Exception {
+        SqlSession session = factory.openSession();
+        UsersMapper mapper = session.getMapper(UsersMapper.class);
+        Users users = mapper.selectAll(1001);
+        System.out.println("用户信息 : " + users.getUid() + " " + users.getUname() + " " + users.getAddress());
+        List<Orders> orders = users.getOrders();
+        for (Orders order : orders) {
+            for (Orderdetail od : order.getOds()) {
+                System.out.println(order.getOrderid() + " " + order.getCreatetime() + " " + order.getStatus() +
+                        " " + od.getItemnum() + " " + od.getItems().getName() + " " + od.getItems().getPrice());
+            }
+        }
+
     }
 }

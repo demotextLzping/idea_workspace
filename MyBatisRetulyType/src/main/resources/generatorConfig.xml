@@ -36,28 +36,29 @@
 
         <!-- table可以有多个,每个数据库中的表都可以写一个table，tableName表示要匹配的数据库表,也可以在tableName属性中通过使用%通配符来匹配所有数据库表,只有匹配的表才会自动生成文件 enableSelectByPrimaryKey相应的配置表示是否生成相应的接口 -->
         <!--注意：相同的表二次执行会追加生成的内容-->
-        <table tableName="emp"
-               domainObjectName="Emp"
-               enableCountByExample="false"
-               enableUpdateByExample="false"
-               enableDeleteByExample="false"
-               enableSelectByExample="false"
-               selectByExampleQueryId="false">
-            <columnOverride column="id" javaType="Integer"/>
-        </table>
-        <table tableName="dept"
-               domainObjectName="Dept"
-               enableCountByExample="false"
-               enableUpdateByExample="false"
-               enableDeleteByExample="false"
-               enableSelectByExample="false"
-               selectByExampleQueryId="false">
-            <columnOverride column="id" javaType="Integer"/>
-        </table>
+        <!--        以下数据库实体类和映射已经创建-->
+        <!--        <table tableName="emp"-->
+        <!--               domainObjectName="Emp"-->
+        <!--               enableCountByExample="false"-->
+        <!--               enableUpdateByExample="false"-->
+        <!--               enableDeleteByExample="false"-->
+        <!--               enableSelectByExample="false"-->
+        <!--               selectByExampleQueryId="false">-->
+        <!--            <columnOverride column="id" javaType="Integer"/>-->
+        <!--        </table>-->
+        <!--        <table tableName="dept"-->
+        <!--               domainObjectName="Dept"-->
+        <!--               enableCountByExample="false"-->
+        <!--               enableUpdateByExample="false"-->
+        <!--               enableDeleteByExample="false"-->
+        <!--               enableSelectByExample="false"-->
+        <!--               selectByExampleQueryId="false">-->
+        <!--            <columnOverride column="id" javaType="Integer"/>-->
+        <!--        </table>-->
 
-<!--        实例多对多创建实体类-->
-        <table tableName="user"
-               domainObjectName="User"
+        <!--        实例多对多创建实体类-->
+        <table tableName="users"
+               domainObjectName="Users"
                enableCountByExample="false"
                enableUpdateByExample="false"
                enableDeleteByExample="false"

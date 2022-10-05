@@ -16,6 +16,6 @@
         </association>
     </resultMap>
     <select id="selectAllEmp" resultMap="empAndDept">
-        select e.* ,d.* from emp e inner join dept d on e.deptno=d.deptno
+        select e.* ,d.* from emp e inner join  dept d on e.deptno=d.deptno
     </select>
 </mapper>
