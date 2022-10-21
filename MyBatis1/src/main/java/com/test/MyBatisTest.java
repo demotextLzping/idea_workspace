@@ -37,8 +37,7 @@ public class MyBatisTest {
         SqlSession session = factory.openSession();
         Dept dept= (Dept) session.selectOne("selectDeptById",10);
         System.out.println(dept.getDeptno()+"; "+dept.getDname()+"; "+dept.getLoc());
-        session.close();
-
+        session.close(); 
     }
     @Test
     public void insertDept() throws IOException{

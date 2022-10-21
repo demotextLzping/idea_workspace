@@ -5,6 +5,12 @@
 <configuration>
     <properties resource="jdbc.properties"/>
 
+    <settings>
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <setting name="aggressiveLazyLoading" value="true"/>
+        <setting name="cacheEnabled" value="true"/>
+    </settings>
+
     <typeAliases>
         <package name="com.lzp.pojo"/>
     </typeAliases>

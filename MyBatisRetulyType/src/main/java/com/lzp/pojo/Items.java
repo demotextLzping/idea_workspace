@@ -1,6 +1,8 @@
 package com.lzp.pojo;
 
-public class Items {
+import java.io.Serializable;
+
+public class Items implements Serializable {
 
     private Integer iid;
 
@@ -13,11 +15,16 @@ public class Items {
 
     private Double price;
 
-
     public Integer getIid() {
         return iid;
     }
 
+    public Items(Integer iid, String name, String detail, Double price) {
+        this.iid = iid;
+        this.name = name;
+        this.detail = detail;
+        this.price = price;
+    }
 
     public void setIid(Integer iid) {
         this.iid = iid;

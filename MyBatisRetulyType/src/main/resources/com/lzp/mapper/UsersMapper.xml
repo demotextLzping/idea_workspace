@@ -32,4 +32,18 @@
         inner join items i on i.iid=od.itemid
         where uid=#{uid}
     </select>
+    <!--    用于分页，获得一共有多少数据-->
+    <select id="selectCount" resultType="int">
+        select count(uid) from users
+    </select>
+    <!--    用于分页，获取当前页面显示的集合-->
+    <select id="selectUserByPage" parameterType="com.lzp.util.Page" resultType="users">
+    <!--limit 初始位置，记录数-->
+        <bind name="beginIndex" value="(pageIndex-1)*showData"/>
+        select * from users order by uid limit #{beginIndex},#{showData}
+    </select>
+
+    <select id="autoUserSelectByPage" parameterType="com.lzp.util.Page" resultType="users">
+        select * from users
+    </select>
 </mapper>
