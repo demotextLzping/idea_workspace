@@ -1,0 +1,119 @@
+2022-11-26 14:16:22.688 [restartedMain] INFO  com.lzp.Springboot03Application - Starting Springboot03Application using Java 1.8.0_201 on Lzping with PID 35428 (D:\Idea_workspace\springboot_all\springboot03\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-26 14:16:22.691 [restartedMain] INFO  com.lzp.Springboot03Application - No active profile set, falling back to 1 default profile: "default"
+2022-11-26 14:16:22.725 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-26 14:16:22.726 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-26 14:16:23.607 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-26 14:16:23.607 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-26 14:16:23.607 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-26 14:16:23.608 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-26 14:16:23.628 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-26 14:16:23.636 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-26 14:16:23.637 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-26 14:16:23.638 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-26 14:16:23.706 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot03] - Initializing Spring embedded WebApplicationContext
+2022-11-26 14:16:23.707 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 980 ms
+2022-11-26 14:16:23.764 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-26 14:16:23.834 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-26 14:16:24.037 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2022-11-26 14:16:24.195 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-11-26 14:16:24.208 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-11-26 14:16:24.218 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springboot03'
+2022-11-26 14:16:24.225 [restartedMain] INFO  com.lzp.Springboot03Application - Started Springboot03Application in 1.845 seconds (JVM running for 2.733)
+2022-11-26 14:18:04.213 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-26 14:18:06.992 [restartedMain] INFO  com.lzp.Springboot03Application - Starting Springboot03Application using Java 1.8.0_201 on Lzping with PID 32808 (D:\Idea_workspace\springboot_all\springboot03\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-26 14:18:06.993 [restartedMain] INFO  com.lzp.Springboot03Application - No active profile set, falling back to 1 default profile: "default"
+2022-11-26 14:18:07.022 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-26 14:18:07.022 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-26 14:18:07.835 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-26 14:18:07.835 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-26 14:18:07.836 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-26 14:18:07.836 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-26 14:18:07.838 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-26 14:18:07.843 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-26 14:18:07.843 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-26 14:18:07.843 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-26 14:18:07.893 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot03] - Initializing Spring embedded WebApplicationContext
+2022-11-26 14:18:07.893 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 871 ms
+2022-11-26 14:18:07.946 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-26 14:18:08.007 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-26 14:18:08.216 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2022-11-26 14:18:08.390 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-11-26 14:18:08.404 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-11-26 14:18:08.417 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springboot03'
+2022-11-26 14:18:08.425 [restartedMain] INFO  com.lzp.Springboot03Application - Started Springboot03Application in 1.698 seconds (JVM running for 2.511)
+2022-11-26 14:18:28.258 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot03] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-26 14:18:28.258 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-11-26 14:18:28.259 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-11-26 14:18:28.422 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.EmpMapper.findAll - ==>  Preparing: select * from emp
+2022-11-26 14:18:28.443 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.EmpMapper.findAll - ==> Parameters: 
+2022-11-26 14:18:28.472 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.EmpMapper.findAll - <==      Total: 15
+2022-11-26 14:18:59.094 [http-nio-8080-exec-4] DEBUG com.lzp.mapper.EmpMapper.findAll - ==>  Preparing: select * from emp
+2022-11-26 14:18:59.094 [http-nio-8080-exec-4] DEBUG com.lzp.mapper.EmpMapper.findAll - ==> Parameters: 
+2022-11-26 14:18:59.100 [http-nio-8080-exec-4] DEBUG com.lzp.mapper.EmpMapper.findAll - <==      Total: 15
+2022-11-26 14:21:03.973 [http-nio-8080-exec-7] DEBUG com.lzp.mapper.EmpMapper.findAll - ==>  Preparing: select * from emp
+2022-11-26 14:21:03.973 [http-nio-8080-exec-7] DEBUG com.lzp.mapper.EmpMapper.findAll - ==> Parameters: 
+2022-11-26 14:21:03.977 [http-nio-8080-exec-7] DEBUG com.lzp.mapper.EmpMapper.findAll - <==      Total: 15
+2022-11-26 14:21:24.897 [http-nio-8080-exec-9] DEBUG com.lzp.mapper.EmpMapper.findAll - ==>  Preparing: select * from emp
+2022-11-26 14:21:24.897 [http-nio-8080-exec-9] DEBUG com.lzp.mapper.EmpMapper.findAll - ==> Parameters: 
+2022-11-26 14:21:24.899 [http-nio-8080-exec-9] DEBUG com.lzp.mapper.EmpMapper.findAll - <==      Total: 15
+2022-11-26 14:29:43.333 [Thread-8] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2022-11-26 14:29:43.333 [Thread-8] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-26 14:29:43.334 [Thread-8] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot03] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-26 14:29:43.337 [Thread-8] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2022-11-26 14:29:43.339 [Thread-8] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2022-11-26 14:29:43.345 [Thread-8] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-26 14:33:44.035 [restartedMain] INFO  com.lzp.Springboot03Application - Starting Springboot03Application using Java 1.8.0_201 on Lzping with PID 21456 (D:\Idea_workspace\springboot_all\springboot03\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-26 14:33:44.037 [restartedMain] INFO  com.lzp.Springboot03Application - No active profile set, falling back to 1 default profile: "default"
+2022-11-26 14:33:44.061 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-26 14:33:44.061 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-26 14:33:44.698 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-26 14:33:44.698 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-26 14:33:44.698 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-26 14:33:44.699 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-26 14:33:44.701 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-26 14:33:44.706 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-26 14:33:44.706 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-26 14:33:44.706 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-26 14:33:44.754 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot03] - Initializing Spring embedded WebApplicationContext
+2022-11-26 14:33:44.754 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 693 ms
+2022-11-26 14:33:44.805 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-26 14:33:44.869 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-26 14:33:45.074 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2022-11-26 14:33:45.235 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-11-26 14:33:45.248 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-11-26 14:33:45.258 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springboot03'
+2022-11-26 14:33:45.265 [restartedMain] INFO  com.lzp.Springboot03Application - Started Springboot03Application in 1.455 seconds (JVM running for 2.164)
+2022-11-26 14:33:52.263 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot03] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-26 14:33:52.263 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-11-26 14:33:52.264 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-11-26 14:33:52.360 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.EmpMapper.findAll - ==>  Preparing: select * from emp
+2022-11-26 14:33:52.373 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.EmpMapper.findAll - ==> Parameters: 
+2022-11-26 14:33:52.389 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.EmpMapper.findAll - <==      Total: 15
+2022-11-26 15:02:14.802 [Thread-8] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2022-11-26 15:02:14.802 [Thread-8] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-26 15:02:14.803 [Thread-8] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot03] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-26 15:02:14.805 [Thread-8] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2022-11-26 15:02:14.807 [Thread-8] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2022-11-26 15:02:14.813 [Thread-8] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-26 15:42:52.424 [restartedMain] INFO  com.lzp.Springboot03Application - Starting Springboot03Application using Java 1.8.0_201 on Lzping with PID 664 (D:\Idea_workspace\springboot_all\springboot03\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-26 15:42:52.426 [restartedMain] INFO  com.lzp.Springboot03Application - No active profile set, falling back to 1 default profile: "default"
+2022-11-26 15:42:52.449 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-26 15:42:52.449 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-26 15:42:53.119 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-26 15:42:53.120 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-26 15:42:53.120 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-26 15:42:53.120 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-26 15:42:53.123 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-26 15:42:53.127 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-26 15:42:53.128 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-26 15:42:53.128 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-26 15:42:53.181 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot03] - Initializing Spring embedded WebApplicationContext
+2022-11-26 15:42:53.181 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 731 ms
+2022-11-26 15:42:53.231 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-26 15:42:53.300 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-26 15:42:53.530 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2022-11-26 15:42:53.674 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-11-26 15:42:53.688 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-11-26 15:42:53.699 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springboot03'
+2022-11-26 15:42:53.705 [restartedMain] INFO  com.lzp.Springboot03Application - Started Springboot03Application in 1.627 seconds (JVM running for 2.704)
+2022-11-26 15:42:57.637 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

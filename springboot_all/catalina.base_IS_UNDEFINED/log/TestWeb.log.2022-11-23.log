@@ -1,0 +1,864 @@
+2022-11-23 14:33:32.809 [main] INFO  com.lzp.SpringbootMyBatisApplication - Starting SpringbootMyBatisApplication using Java 1.8.0_201 on Lzping with PID 26784 (D:\Idea_workspace\springboot_all\springboot_MyBatis\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-23 14:33:32.813 [main] INFO  com.lzp.SpringbootMyBatisApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-23 14:33:33.421 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-23 14:33:33.421 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-23 14:33:33.425 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-23 14:33:33.425 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-23 14:33:33.427 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-23 14:33:33.432 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-23 14:33:33.432 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-23 14:33:33.432 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-23 14:33:33.508 [main] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring embedded WebApplicationContext
+2022-11-23 14:33:33.508 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 648 ms
+2022-11-23 14:33:33.850 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-11-23 14:33:33.859 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springbootMybatis'
+2022-11-23 14:33:33.865 [main] INFO  com.lzp.SpringbootMyBatisApplication - Started SpringbootMyBatisApplication in 1.357 seconds (JVM running for 2.154)
+2022-11-23 14:33:58.536 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-23 14:33:58.536 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-11-23 14:33:58.537 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-11-23 14:33:58.560 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-11-23 14:33:58.643 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-11-23 14:33:58.663 [http-nio-8080-exec-2] DEBUG com.lzp.mapper.UserMapper.selectAll - ==>  Preparing: select * from user
+2022-11-23 14:33:58.675 [http-nio-8080-exec-2] DEBUG com.lzp.mapper.UserMapper.selectAll - ==> Parameters: 
+2022-11-23 14:33:58.688 [http-nio-8080-exec-2] DEBUG com.lzp.mapper.UserMapper.selectAll - <==      Total: 2
+2022-11-23 14:50:05.824 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-11-23 14:50:05.832 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-11-23 14:50:16.719 [main] INFO  com.lzp.SpringbootMyBatisApplication - Starting SpringbootMyBatisApplication using Java 1.8.0_201 on Lzping with PID 38732 (D:\Idea_workspace\springboot_all\springboot_MyBatis\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-23 14:50:16.721 [main] INFO  com.lzp.SpringbootMyBatisApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-23 14:50:17.253 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-23 14:50:17.254 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-23 14:50:17.254 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-23 14:50:17.254 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-23 14:50:17.256 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-23 14:50:17.260 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-23 14:50:17.261 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-23 14:50:17.261 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-23 14:50:17.336 [main] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring embedded WebApplicationContext
+2022-11-23 14:50:17.336 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 594 ms
+2022-11-23 14:50:17.683 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-11-23 14:50:17.692 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springbootMybatis'
+2022-11-23 14:50:17.698 [main] INFO  com.lzp.SpringbootMyBatisApplication - Started SpringbootMyBatisApplication in 1.189 seconds (JVM running for 1.794)
+2022-11-23 14:50:17.779 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-23 14:50:17.779 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-11-23 14:50:17.780 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-11-23 14:50:17.801 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-11-23 14:50:17.864 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-11-23 14:50:17.868 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.EmpMapper.findAll - ==>  Preparing: select * from emp
+2022-11-23 14:50:17.880 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.EmpMapper.findAll - ==> Parameters: 
+2022-11-23 14:50:17.902 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.EmpMapper.findAll - <==      Total: 15
+2022-11-23 14:50:20.290 [http-nio-8080-exec-2] DEBUG com.lzp.mapper.EmpMapper.findAll - ==>  Preparing: select * from emp
+2022-11-23 14:50:20.291 [http-nio-8080-exec-2] DEBUG com.lzp.mapper.EmpMapper.findAll - ==> Parameters: 
+2022-11-23 14:50:20.294 [http-nio-8080-exec-2] DEBUG com.lzp.mapper.EmpMapper.findAll - <==      Total: 15
+2022-11-23 14:50:24.051 [http-nio-8080-exec-3] DEBUG com.lzp.mapper.EmpMapper.findAll - ==>  Preparing: select * from emp
+2022-11-23 14:50:24.051 [http-nio-8080-exec-3] DEBUG com.lzp.mapper.EmpMapper.findAll - ==> Parameters: 
+2022-11-23 14:50:24.054 [http-nio-8080-exec-3] DEBUG com.lzp.mapper.EmpMapper.findAll - <==      Total: 15
+2022-11-23 14:50:35.704 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-11-23 14:50:35.709 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-11-23 14:50:42.873 [main] INFO  com.lzp.SpringbootMyBatisApplication - Starting SpringbootMyBatisApplication using Java 1.8.0_201 on Lzping with PID 33128 (D:\Idea_workspace\springboot_all\springboot_MyBatis\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-23 14:50:42.875 [main] INFO  com.lzp.SpringbootMyBatisApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-23 14:50:43.423 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-23 14:50:43.423 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-23 14:50:43.423 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-23 14:50:43.423 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-23 14:50:43.425 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-23 14:50:43.429 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-23 14:50:43.430 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-23 14:50:43.430 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-23 14:50:43.504 [main] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring embedded WebApplicationContext
+2022-11-23 14:50:43.504 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 604 ms
+2022-11-23 14:50:43.846 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-11-23 14:50:43.855 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springbootMybatis'
+2022-11-23 14:50:43.861 [main] INFO  com.lzp.SpringbootMyBatisApplication - Started SpringbootMyBatisApplication in 1.2 seconds (JVM running for 1.824)
+2022-11-23 14:50:46.710 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-23 14:50:46.711 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-11-23 14:50:46.711 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-11-23 14:50:46.732 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-11-23 14:50:46.796 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-11-23 14:50:46.801 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.EmpMapper.findAll - ==>  Preparing: select * from emp
+2022-11-23 14:50:46.813 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.EmpMapper.findAll - ==> Parameters: 
+2022-11-23 14:50:46.836 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.EmpMapper.findAll - <==      Total: 15
+2022-11-23 14:51:34.420 [http-nio-8080-exec-3] DEBUG com.lzp.mapper.EmpMapper.findAll - ==>  Preparing: select * from emp
+2022-11-23 14:51:34.421 [http-nio-8080-exec-3] DEBUG com.lzp.mapper.EmpMapper.findAll - ==> Parameters: 
+2022-11-23 14:51:34.423 [http-nio-8080-exec-3] DEBUG com.lzp.mapper.EmpMapper.findAll - <==      Total: 15
+2022-11-23 15:04:15.677 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-11-23 15:04:15.685 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-11-23 15:04:23.892 [main] INFO  com.lzp.SpringbootMyBatisApplication - Starting SpringbootMyBatisApplication using Java 1.8.0_201 on Lzping with PID 23184 (D:\Idea_workspace\springboot_all\springboot_MyBatis\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-23 15:04:23.894 [main] INFO  com.lzp.SpringbootMyBatisApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-23 15:04:24.437 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-23 15:04:24.438 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-23 15:04:24.438 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-23 15:04:24.438 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-23 15:04:24.440 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-23 15:04:24.444 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-23 15:04:24.445 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-23 15:04:24.445 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-23 15:04:24.523 [main] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring embedded WebApplicationContext
+2022-11-23 15:04:24.523 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 607 ms
+2022-11-23 15:04:24.802 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Invalid mapping on handler class [com.lzp.controller.EmpController]: public java.util.List com.lzp.controller.EmpController.findByPage(java.lang.Integer,java.lang.Integer)
+2022-11-23 15:04:24.804 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-23 15:04:24.810 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-11-23 15:04:24.821 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid mapping pattern detected: /findByPage/{pageNum}/{pageSize}}
+                                ^
+Missing preceding open capture character before variable name{
+
+Action:
+
+Fix this pattern in your application or switch to the legacy parser implementation with 'spring.mvc.pathmatch.matching-strategy=ant_path_matcher'.
+
+2022-11-23 15:06:31.070 [main] INFO  com.lzp.SpringbootMyBatisApplication - Starting SpringbootMyBatisApplication using Java 1.8.0_201 on Lzping with PID 36768 (D:\Idea_workspace\springboot_all\springboot_MyBatis\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-23 15:06:31.071 [main] INFO  com.lzp.SpringbootMyBatisApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-23 15:06:31.616 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-23 15:06:31.616 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-23 15:06:31.616 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-23 15:06:31.616 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-23 15:06:31.618 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-23 15:06:31.623 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-23 15:06:31.623 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-23 15:06:31.623 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-23 15:06:31.702 [main] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring embedded WebApplicationContext
+2022-11-23 15:06:31.703 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 610 ms
+2022-11-23 15:06:32.029 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Invalid mapping on handler class [com.lzp.controller.EmpController]: public java.util.List com.lzp.controller.EmpController.findByPage(java.lang.Integer,java.lang.Integer)
+2022-11-23 15:06:32.031 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-23 15:06:32.037 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-11-23 15:06:32.048 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid mapping pattern detected: /findByPage/{pageNum}/{pageSize}}
+                                ^
+Missing preceding open capture character before variable name{
+
+Action:
+
+Fix this pattern in your application or switch to the legacy parser implementation with 'spring.mvc.pathmatch.matching-strategy=ant_path_matcher'.
+
+2022-11-23 15:06:45.131 [main] INFO  com.lzp.SpringbootMyBatisApplication - Starting SpringbootMyBatisApplication using Java 1.8.0_201 on Lzping with PID 25436 (D:\Idea_workspace\springboot_all\springboot_MyBatis\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-23 15:06:45.133 [main] INFO  com.lzp.SpringbootMyBatisApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-23 15:06:45.664 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-23 15:06:45.665 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-23 15:06:45.665 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-23 15:06:45.665 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-23 15:06:45.668 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-23 15:06:45.673 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-23 15:06:45.673 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-23 15:06:45.673 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-23 15:06:45.749 [main] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring embedded WebApplicationContext
+2022-11-23 15:06:45.749 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 594 ms
+2022-11-23 15:06:46.065 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Invalid mapping on handler class [com.lzp.controller.EmpController]: public java.util.List com.lzp.controller.EmpController.findByPage(java.lang.Integer,java.lang.Integer)
+2022-11-23 15:06:46.067 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-23 15:06:46.074 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-11-23 15:06:46.085 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid mapping pattern detected: /findByPage/{pageNum}/{pageSize}}
+                                ^
+Missing preceding open capture character before variable name{
+
+Action:
+
+Fix this pattern in your application or switch to the legacy parser implementation with 'spring.mvc.pathmatch.matching-strategy=ant_path_matcher'.
+
+2022-11-23 15:08:34.581 [main] INFO  com.lzp.SpringbootMyBatisApplication - Starting SpringbootMyBatisApplication using Java 1.8.0_201 on Lzping with PID 29048 (D:\Idea_workspace\springboot_all\springboot_MyBatis\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-23 15:08:34.582 [main] INFO  com.lzp.SpringbootMyBatisApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-23 15:08:35.159 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-23 15:08:35.160 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-23 15:08:35.160 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-23 15:08:35.160 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-23 15:08:35.163 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-23 15:08:35.168 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-23 15:08:35.169 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-23 15:08:35.169 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-23 15:08:35.254 [main] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring embedded WebApplicationContext
+2022-11-23 15:08:35.255 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 648 ms
+2022-11-23 15:08:35.618 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2022-11-23 15:08:35.620 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-23 15:08:35.626 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-11-23 15:08:35.636 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌──->──┐
+|  com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration
+└──<-──┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2022-11-23 15:11:32.060 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.main' to org.springframework.boot.SpringApplication:
+
+    Property: spring.main
+    Value: "allow-circular-references:true"
+    Origin: class path resource [application.yml] - 7:5
+    Reason: org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.lang.String] to type [org.springframework.boot.SpringApplication]
+
+Action:
+
+Update your application's configuration
+
+2022-11-23 15:12:06.188 [main] INFO  com.lzp.SpringbootMyBatisApplication - Starting SpringbootMyBatisApplication using Java 1.8.0_201 on Lzping with PID 38884 (D:\Idea_workspace\springboot_all\springboot_MyBatis\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-23 15:12:06.189 [main] INFO  com.lzp.SpringbootMyBatisApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-23 15:12:06.687 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-23 15:12:06.687 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-23 15:12:06.687 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-23 15:12:06.688 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-23 15:12:06.690 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-23 15:12:06.694 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-23 15:12:06.694 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-23 15:12:06.694 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-23 15:12:06.765 [main] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring embedded WebApplicationContext
+2022-11-23 15:12:06.765 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 556 ms
+2022-11-23 15:12:07.065 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2022-11-23 15:12:07.067 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-23 15:12:07.072 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-11-23 15:12:07.080 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌──->──┐
+|  com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration
+└──<-──┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2022-11-23 15:14:05.870 [main] INFO  com.lzp.SpringbootMyBatisApplication - Starting SpringbootMyBatisApplication using Java 1.8.0_201 on Lzping with PID 38800 (D:\Idea_workspace\springboot_all\springboot_MyBatis\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-23 15:14:05.872 [main] INFO  com.lzp.SpringbootMyBatisApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-23 15:14:06.416 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-23 15:14:06.416 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-23 15:14:06.416 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-23 15:14:06.416 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-23 15:14:06.418 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-23 15:14:06.423 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-23 15:14:06.423 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-23 15:14:06.423 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-23 15:14:06.510 [main] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring embedded WebApplicationContext
+2022-11-23 15:14:06.510 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 617 ms
+2022-11-23 15:14:06.835 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2022-11-23 15:14:06.837 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-23 15:14:06.843 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-11-23 15:14:06.851 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌──->──┐
+|  com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration
+└──<-──┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2022-11-23 15:15:55.044 [main] INFO  com.lzp.SpringbootMyBatisApplication - Starting SpringbootMyBatisApplication using Java 1.8.0_201 on Lzping with PID 39220 (D:\Idea_workspace\springboot_all\springboot_MyBatis\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-23 15:15:55.046 [main] INFO  com.lzp.SpringbootMyBatisApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-23 15:15:55.528 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-23 15:15:55.529 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-23 15:15:55.529 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-23 15:15:55.529 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-23 15:15:55.531 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-23 15:15:55.535 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-23 15:15:55.535 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-23 15:15:55.535 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-23 15:15:55.605 [main] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring embedded WebApplicationContext
+2022-11-23 15:15:55.606 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 538 ms
+2022-11-23 15:15:55.907 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration': Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+2022-11-23 15:15:55.909 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-23 15:15:55.915 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-11-23 15:15:55.926 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration': Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.lzp.SpringbootMyBatisApplication.main(SpringbootMyBatisApplication.java:12)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:743)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:675)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:377)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:358)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:306)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	... 15 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Lorg/springframework/boot/bind/RelaxedPropertyResolver;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	at java.lang.Class.getDeclaredFields(Class.java:1916)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:738)
+	... 21 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.bind.RelaxedPropertyResolver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 25 common frames omitted
+2022-11-23 15:18:44.456 [main] INFO  com.lzp.SpringbootMyBatisApplication - Starting SpringbootMyBatisApplication using Java 1.8.0_201 on Lzping with PID 33008 (D:\Idea_workspace\springboot_all\springboot_MyBatis\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-23 15:18:44.457 [main] INFO  com.lzp.SpringbootMyBatisApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-23 15:18:44.971 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-23 15:18:44.971 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-23 15:18:44.971 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-23 15:18:44.972 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-23 15:18:44.974 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-23 15:18:44.978 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-23 15:18:44.978 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-23 15:18:44.978 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-23 15:18:45.045 [main] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring embedded WebApplicationContext
+2022-11-23 15:18:45.045 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 567 ms
+2022-11-23 15:18:45.346 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2022-11-23 15:18:45.348 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-23 15:18:45.353 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-11-23 15:18:45.360 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌──->──┐
+|  com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration
+└──<-──┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2022-11-23 15:19:38.510 [main] INFO  com.lzp.SpringbootMyBatisApplication - Starting SpringbootMyBatisApplication using Java 1.8.0_201 on Lzping with PID 33580 (D:\Idea_workspace\springboot_all\springboot_MyBatis\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-23 15:19:38.512 [main] INFO  com.lzp.SpringbootMyBatisApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-23 15:19:38.997 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-23 15:19:38.998 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-23 15:19:38.998 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-23 15:19:38.998 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-23 15:19:39.000 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-23 15:19:39.004 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-23 15:19:39.004 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-23 15:19:39.004 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-23 15:19:39.079 [main] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring embedded WebApplicationContext
+2022-11-23 15:19:39.079 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 547 ms
+2022-11-23 15:19:39.425 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-11-23 15:19:39.435 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springbootMybatis'
+2022-11-23 15:19:39.441 [main] INFO  com.lzp.SpringbootMyBatisApplication - Started SpringbootMyBatisApplication in 1.145 seconds (JVM running for 1.747)
+2022-11-23 15:20:12.211 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-23 15:20:12.211 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-11-23 15:20:12.212 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-11-23 15:20:12.233 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-11-23 15:20:12.307 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-11-23 15:20:12.328 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.UserMapper.selectAll - ==>  Preparing: select * from user
+2022-11-23 15:20:12.338 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.UserMapper.selectAll - ==> Parameters: 
+2022-11-23 15:20:12.347 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.UserMapper.selectAll - <==      Total: 2
+2022-11-23 15:20:30.024 [http-nio-8080-exec-3] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - ==>  Preparing: SELECT count(0) FROM emp
+2022-11-23 15:20:30.024 [http-nio-8080-exec-3] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - ==> Parameters: 
+2022-11-23 15:20:30.028 [http-nio-8080-exec-3] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - <==      Total: 1
+2022-11-23 15:20:30.031 [http-nio-8080-exec-3] DEBUG com.lzp.mapper.EmpMapper.findAll - ==>  Preparing: select * from emp LIMIT ?, ?
+2022-11-23 15:20:30.032 [http-nio-8080-exec-3] DEBUG com.lzp.mapper.EmpMapper.findAll - ==> Parameters: 3(Long), 3(Integer)
+2022-11-23 15:20:30.035 [http-nio-8080-exec-3] DEBUG com.lzp.mapper.EmpMapper.findAll - <==      Total: 3
+2022-11-23 15:21:11.688 [http-nio-8080-exec-7] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - ==>  Preparing: SELECT count(0) FROM emp
+2022-11-23 15:21:11.688 [http-nio-8080-exec-7] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - ==> Parameters: 
+2022-11-23 15:21:11.689 [http-nio-8080-exec-7] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - <==      Total: 1
+2022-11-23 15:21:11.690 [http-nio-8080-exec-7] DEBUG com.lzp.mapper.EmpMapper.findAll - ==>  Preparing: select * from emp LIMIT ?
+2022-11-23 15:21:11.690 [http-nio-8080-exec-7] DEBUG com.lzp.mapper.EmpMapper.findAll - ==> Parameters: 3(Integer)
+2022-11-23 15:21:11.691 [http-nio-8080-exec-7] DEBUG com.lzp.mapper.EmpMapper.findAll - <==      Total: 3
+2022-11-23 15:21:15.847 [http-nio-8080-exec-8] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - ==>  Preparing: SELECT count(0) FROM emp
+2022-11-23 15:21:15.847 [http-nio-8080-exec-8] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - ==> Parameters: 
+2022-11-23 15:21:15.848 [http-nio-8080-exec-8] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - <==      Total: 1
+2022-11-23 15:21:15.849 [http-nio-8080-exec-8] DEBUG com.lzp.mapper.EmpMapper.findAll - ==>  Preparing: select * from emp LIMIT ?, ?
+2022-11-23 15:21:15.849 [http-nio-8080-exec-8] DEBUG com.lzp.mapper.EmpMapper.findAll - ==> Parameters: 3(Long), 3(Integer)
+2022-11-23 15:21:15.854 [http-nio-8080-exec-8] DEBUG com.lzp.mapper.EmpMapper.findAll - <==      Total: 3
+2022-11-23 15:21:21.899 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - ==>  Preparing: SELECT count(0) FROM emp
+2022-11-23 15:21:21.900 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - ==> Parameters: 
+2022-11-23 15:21:21.900 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - <==      Total: 1
+2022-11-23 15:21:21.901 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.EmpMapper.findAll - ==>  Preparing: select * from emp LIMIT ?
+2022-11-23 15:21:21.901 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.EmpMapper.findAll - ==> Parameters: 1(Integer)
+2022-11-23 15:21:21.901 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.EmpMapper.findAll - <==      Total: 1
+2022-11-23 15:21:25.529 [http-nio-8080-exec-5] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - ==>  Preparing: SELECT count(0) FROM emp
+2022-11-23 15:21:25.529 [http-nio-8080-exec-5] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - ==> Parameters: 
+2022-11-23 15:21:25.530 [http-nio-8080-exec-5] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - <==      Total: 1
+2022-11-23 15:21:25.530 [http-nio-8080-exec-5] DEBUG com.lzp.mapper.EmpMapper.findAll - ==>  Preparing: select * from emp LIMIT ?
+2022-11-23 15:21:25.531 [http-nio-8080-exec-5] DEBUG com.lzp.mapper.EmpMapper.findAll - ==> Parameters: 5(Integer)
+2022-11-23 15:21:25.532 [http-nio-8080-exec-5] DEBUG com.lzp.mapper.EmpMapper.findAll - <==      Total: 5
+2022-11-23 15:22:22.986 [http-nio-8080-exec-4] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - ==>  Preparing: SELECT count(0) FROM emp
+2022-11-23 15:22:22.987 [http-nio-8080-exec-4] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - ==> Parameters: 
+2022-11-23 15:22:22.987 [http-nio-8080-exec-4] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - <==      Total: 1
+2022-11-23 15:22:22.987 [http-nio-8080-exec-4] DEBUG com.lzp.mapper.EmpMapper.findAll - ==>  Preparing: select * from emp LIMIT ?
+2022-11-23 15:22:22.987 [http-nio-8080-exec-4] DEBUG com.lzp.mapper.EmpMapper.findAll - ==> Parameters: 5(Integer)
+2022-11-23 15:22:22.991 [http-nio-8080-exec-4] DEBUG com.lzp.mapper.EmpMapper.findAll - <==      Total: 5
+2022-11-23 15:27:29.158 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-11-23 15:27:29.165 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-11-23 15:27:41.581 [main] INFO  com.lzp.SpringbootMyBatisApplication - Starting SpringbootMyBatisApplication using Java 1.8.0_201 on Lzping with PID 39484 (D:\Idea_workspace\springboot_all\springboot_MyBatis\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-23 15:27:41.583 [main] INFO  com.lzp.SpringbootMyBatisApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-23 15:27:42.111 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-23 15:27:42.111 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-23 15:27:42.111 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-23 15:27:42.111 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-23 15:27:42.113 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-23 15:27:42.117 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-23 15:27:42.118 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-23 15:27:42.118 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-23 15:27:42.200 [main] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring embedded WebApplicationContext
+2022-11-23 15:27:42.200 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 597 ms
+2022-11-23 15:27:42.584 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-11-23 15:27:42.595 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springbootMybatis'
+2022-11-23 15:27:42.602 [main] INFO  com.lzp.SpringbootMyBatisApplication - Started SpringbootMyBatisApplication in 1.235 seconds (JVM running for 1.892)
+2022-11-23 15:27:45.292 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-23 15:27:45.292 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-11-23 15:27:45.293 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-11-23 15:27:45.324 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-11-23 15:27:45.385 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-11-23 15:27:45.406 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - ==>  Preparing: SELECT count(0) FROM emp
+2022-11-23 15:27:45.417 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - ==> Parameters: 
+2022-11-23 15:27:45.427 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - <==      Total: 1
+2022-11-23 15:27:45.428 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.EmpMapper.findAll - ==>  Preparing: select * from emp LIMIT ?
+2022-11-23 15:27:45.429 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.EmpMapper.findAll - ==> Parameters: 5(Integer)
+2022-11-23 15:27:45.432 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.EmpMapper.findAll - <==      Total: 5
+2022-11-23 15:28:08.479 [http-nio-8080-exec-2] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - ==>  Preparing: SELECT count(0) FROM emp
+2022-11-23 15:28:08.479 [http-nio-8080-exec-2] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - ==> Parameters: 
+2022-11-23 15:28:08.480 [http-nio-8080-exec-2] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - <==      Total: 1
+2022-11-23 15:28:08.480 [http-nio-8080-exec-2] DEBUG com.lzp.mapper.EmpMapper.findAll - ==>  Preparing: select * from emp LIMIT ?, ?
+2022-11-23 15:28:08.481 [http-nio-8080-exec-2] DEBUG com.lzp.mapper.EmpMapper.findAll - ==> Parameters: 4(Long), 4(Integer)
+2022-11-23 15:28:08.482 [http-nio-8080-exec-2] DEBUG com.lzp.mapper.EmpMapper.findAll - <==      Total: 4
+2022-11-23 15:31:29.571 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-11-23 15:31:29.579 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-11-23 15:31:37.089 [main] INFO  com.lzp.SpringbootMyBatisApplication - Starting SpringbootMyBatisApplication using Java 1.8.0_201 on Lzping with PID 27828 (D:\Idea_workspace\springboot_all\springboot_MyBatis\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-23 15:31:37.091 [main] INFO  com.lzp.SpringbootMyBatisApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-23 15:31:37.646 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-23 15:31:37.647 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-23 15:31:37.647 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-23 15:31:37.647 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-23 15:31:37.649 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-23 15:31:37.654 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-23 15:31:37.655 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-23 15:31:37.655 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-23 15:31:37.734 [main] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring embedded WebApplicationContext
+2022-11-23 15:31:37.734 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 622 ms
+2022-11-23 15:31:38.094 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-11-23 15:31:38.105 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springbootMybatis'
+2022-11-23 15:31:38.111 [main] INFO  com.lzp.SpringbootMyBatisApplication - Started SpringbootMyBatisApplication in 1.245 seconds (JVM running for 1.843)
+2022-11-23 15:31:40.999 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-23 15:31:40.999 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-11-23 15:31:41.000 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-11-23 15:31:41.025 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-11-23 15:31:41.087 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-11-23 15:31:41.109 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - ==>  Preparing: SELECT count(0) FROM emp
+2022-11-23 15:31:41.120 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - ==> Parameters: 
+2022-11-23 15:31:41.131 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - <==      Total: 1
+2022-11-23 15:31:41.133 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.EmpMapper.findAll - ==>  Preparing: select * from emp LIMIT ?, ?
+2022-11-23 15:31:41.133 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.EmpMapper.findAll - ==> Parameters: 4(Long), 4(Integer)
+2022-11-23 15:31:41.135 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.EmpMapper.findAll - <==      Total: 4
+2022-11-23 16:05:12.592 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-11-23 16:05:12.597 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-11-23 16:05:20.776 [main] INFO  com.lzp.SpringbootMyBatisApplication - Starting SpringbootMyBatisApplication using Java 1.8.0_201 on Lzping with PID 28544 (D:\Idea_workspace\springboot_all\springboot_MyBatis\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-23 16:05:20.778 [main] INFO  com.lzp.SpringbootMyBatisApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-23 16:05:21.346 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-23 16:05:21.347 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-23 16:05:21.347 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-23 16:05:21.347 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-23 16:05:21.349 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-23 16:05:21.354 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-23 16:05:21.355 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-23 16:05:21.355 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-23 16:05:21.431 [main] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring embedded WebApplicationContext
+2022-11-23 16:05:21.431 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 633 ms
+2022-11-23 16:05:21.478 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-23 16:05:21.541 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-23 16:05:21.872 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-11-23 16:05:21.884 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springbootMybatis'
+2022-11-23 16:05:21.890 [main] INFO  com.lzp.SpringbootMyBatisApplication - Started SpringbootMyBatisApplication in 1.337 seconds (JVM running for 1.983)
+2022-11-23 16:06:05.427 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-23 16:06:05.428 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-23 16:06:10.481 [main] INFO  com.lzp.SpringbootMyBatisApplication - Starting SpringbootMyBatisApplication using Java 1.8.0_201 on Lzping with PID 34112 (D:\Idea_workspace\springboot_all\springboot_MyBatis\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-23 16:06:10.483 [main] INFO  com.lzp.SpringbootMyBatisApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-23 16:06:11.033 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-23 16:06:11.034 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-23 16:06:11.034 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-23 16:06:11.034 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-23 16:06:11.036 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-23 16:06:11.041 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-23 16:06:11.041 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-23 16:06:11.041 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-23 16:06:11.122 [main] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring embedded WebApplicationContext
+2022-11-23 16:06:11.123 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 619 ms
+2022-11-23 16:06:11.167 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-23 16:06:11.214 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-23 16:06:11.513 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-11-23 16:06:11.525 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springbootMybatis'
+2022-11-23 16:06:11.531 [main] INFO  com.lzp.SpringbootMyBatisApplication - Started SpringbootMyBatisApplication in 1.269 seconds (JVM running for 1.9)
+2022-11-23 16:06:15.760 [http-nio-8080-exec-5] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-23 16:06:15.760 [http-nio-8080-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-11-23 16:06:15.761 [http-nio-8080-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-11-23 16:06:15.865 [http-nio-8080-exec-5] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - ==>  Preparing: SELECT count(0) FROM emp
+2022-11-23 16:06:15.877 [http-nio-8080-exec-5] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - ==> Parameters: 
+2022-11-23 16:06:15.887 [http-nio-8080-exec-5] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - <==      Total: 1
+2022-11-23 16:06:15.889 [http-nio-8080-exec-5] DEBUG com.lzp.mapper.EmpMapper.findAll - ==>  Preparing: select * from emp LIMIT ?, ?
+2022-11-23 16:06:15.889 [http-nio-8080-exec-5] DEBUG com.lzp.mapper.EmpMapper.findAll - ==> Parameters: 4(Long), 4(Integer)
+2022-11-23 16:06:15.891 [http-nio-8080-exec-5] DEBUG com.lzp.mapper.EmpMapper.findAll - <==      Total: 4
+2022-11-23 16:07:27.849 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-23 16:07:27.854 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-23 16:07:32.353 [main] INFO  com.lzp.SpringbootMyBatisApplication - Starting SpringbootMyBatisApplication using Java 1.8.0_201 on Lzping with PID 21568 (D:\Idea_workspace\springboot_all\springboot_MyBatis\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-23 16:07:32.354 [main] INFO  com.lzp.SpringbootMyBatisApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-23 16:07:32.934 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-23 16:07:32.935 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-23 16:07:32.935 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-23 16:07:32.935 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-23 16:07:32.937 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-23 16:07:32.942 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-23 16:07:32.942 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-23 16:07:32.942 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-23 16:07:33.019 [main] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring embedded WebApplicationContext
+2022-11-23 16:07:33.019 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 639 ms
+2022-11-23 16:07:33.065 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-23 16:07:33.116 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-23 16:07:33.454 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-11-23 16:07:33.464 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springbootMybatis'
+2022-11-23 16:07:33.470 [main] INFO  com.lzp.SpringbootMyBatisApplication - Started SpringbootMyBatisApplication in 1.351 seconds (JVM running for 2.009)
+2022-11-23 16:08:21.665 [http-nio-8080-exec-6] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-23 16:08:21.665 [http-nio-8080-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-11-23 16:08:21.666 [http-nio-8080-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-11-23 16:08:26.680 [http-nio-8080-exec-5] DEBUG com.lzp.mapper.UserMapper.selectAll - ==>  Preparing: select * from user
+2022-11-23 16:08:26.694 [http-nio-8080-exec-5] DEBUG com.lzp.mapper.UserMapper.selectAll - ==> Parameters: 
+2022-11-23 16:08:26.705 [http-nio-8080-exec-5] DEBUG com.lzp.mapper.UserMapper.selectAll - <==      Total: 2
+2022-11-23 16:11:49.209 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-23 16:11:49.213 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-23 16:12:00.338 [main] INFO  com.lzp.SpringbootMyBatisApplication - Starting SpringbootMyBatisApplication using Java 1.8.0_201 on Lzping with PID 35336 (D:\Idea_workspace\springboot_all\springboot_MyBatis\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-23 16:12:00.341 [main] INFO  com.lzp.SpringbootMyBatisApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-23 16:12:01.215 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-23 16:12:01.216 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-23 16:12:01.216 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-23 16:12:01.216 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-23 16:12:01.219 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-23 16:12:01.225 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-23 16:12:01.226 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-23 16:12:01.226 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-23 16:12:01.331 [main] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring embedded WebApplicationContext
+2022-11-23 16:12:01.331 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 946 ms
+2022-11-23 16:12:01.393 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-23 16:12:01.457 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-23 16:12:01.852 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-11-23 16:12:01.866 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springbootMybatis'
+2022-11-23 16:12:01.874 [main] INFO  com.lzp.SpringbootMyBatisApplication - Started SpringbootMyBatisApplication in 2.014 seconds (JVM running for 3.612)
+2022-11-23 16:12:08.096 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-23 16:12:08.097 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-11-23 16:12:08.099 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-11-23 16:13:40.417 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-23 16:13:40.417 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-23 16:13:42.718 [main] INFO  com.lzp.SpringbootMyBatisApplication - Starting SpringbootMyBatisApplication using Java 1.8.0_201 on Lzping with PID 32424 (D:\Idea_workspace\springboot_all\springboot_MyBatis\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-23 16:13:42.719 [main] INFO  com.lzp.SpringbootMyBatisApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-23 16:13:43.276 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-23 16:13:43.277 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-23 16:13:43.277 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-23 16:13:43.277 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-23 16:13:43.279 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-23 16:13:43.283 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-23 16:13:43.284 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-23 16:13:43.284 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-23 16:13:43.357 [main] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring embedded WebApplicationContext
+2022-11-23 16:13:43.357 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 618 ms
+2022-11-23 16:13:43.403 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-23 16:13:43.451 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-23 16:13:43.773 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-11-23 16:13:43.783 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springbootMybatis'
+2022-11-23 16:13:43.790 [main] INFO  com.lzp.SpringbootMyBatisApplication - Started SpringbootMyBatisApplication in 1.287 seconds (JVM running for 1.906)
+2022-11-23 16:13:53.300 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-23 16:13:53.300 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-11-23 16:13:53.301 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-11-23 16:14:14.014 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-23 16:14:14.015 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-23 16:14:16.367 [main] INFO  com.lzp.SpringbootMyBatisApplication - Starting SpringbootMyBatisApplication using Java 1.8.0_201 on Lzping with PID 41644 (D:\Idea_workspace\springboot_all\springboot_MyBatis\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-23 16:14:16.369 [main] INFO  com.lzp.SpringbootMyBatisApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-23 16:14:16.898 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-23 16:14:16.899 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-23 16:14:16.899 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-23 16:14:16.899 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-23 16:14:16.901 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-23 16:14:16.905 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-23 16:14:16.906 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-23 16:14:16.906 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-23 16:14:16.984 [main] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring embedded WebApplicationContext
+2022-11-23 16:14:16.984 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 596 ms
+2022-11-23 16:14:17.029 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-23 16:14:17.078 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-23 16:14:17.419 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-11-23 16:14:17.429 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springbootMybatis'
+2022-11-23 16:14:17.436 [main] INFO  com.lzp.SpringbootMyBatisApplication - Started SpringbootMyBatisApplication in 1.29 seconds (JVM running for 1.941)
+2022-11-23 16:14:23.842 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-23 16:14:23.842 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-11-23 16:14:23.842 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-11-23 16:14:34.537 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-23 16:14:34.538 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-23 16:14:38.335 [main] INFO  com.lzp.SpringbootMyBatisApplication - Starting SpringbootMyBatisApplication using Java 1.8.0_201 on Lzping with PID 42400 (D:\Idea_workspace\springboot_all\springboot_MyBatis\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-23 16:14:38.337 [main] INFO  com.lzp.SpringbootMyBatisApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-23 16:14:38.881 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-23 16:14:38.882 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-23 16:14:38.882 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-23 16:14:38.882 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-23 16:14:38.884 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-23 16:14:38.889 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-23 16:14:38.890 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-23 16:14:38.890 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-23 16:14:38.973 [main] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring embedded WebApplicationContext
+2022-11-23 16:14:38.973 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 614 ms
+2022-11-23 16:14:39.020 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-23 16:14:39.066 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-23 16:14:39.397 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-11-23 16:14:39.407 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springbootMybatis'
+2022-11-23 16:14:39.414 [main] INFO  com.lzp.SpringbootMyBatisApplication - Started SpringbootMyBatisApplication in 1.297 seconds (JVM running for 1.94)
+2022-11-23 16:14:44.452 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-23 16:14:44.453 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-11-23 16:14:44.453 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-11-23 16:14:47.605 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-23 16:14:47.606 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-23 16:14:49.966 [main] INFO  com.lzp.SpringbootMyBatisApplication - Starting SpringbootMyBatisApplication using Java 1.8.0_201 on Lzping with PID 42660 (D:\Idea_workspace\springboot_all\springboot_MyBatis\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-23 16:14:49.967 [main] INFO  com.lzp.SpringbootMyBatisApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-23 16:14:50.524 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-23 16:14:50.525 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-23 16:14:50.525 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-23 16:14:50.525 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-23 16:14:50.527 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-23 16:14:50.531 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-23 16:14:50.531 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-23 16:14:50.531 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-23 16:14:50.607 [main] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring embedded WebApplicationContext
+2022-11-23 16:14:50.607 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 620 ms
+2022-11-23 16:14:50.651 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-23 16:14:50.699 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-23 16:14:51.017 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-11-23 16:14:51.027 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springbootMybatis'
+2022-11-23 16:14:51.033 [main] INFO  com.lzp.SpringbootMyBatisApplication - Started SpringbootMyBatisApplication in 1.287 seconds (JVM running for 1.893)
+2022-11-23 16:14:54.262 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-23 16:14:54.262 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-11-23 16:14:54.263 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-11-23 16:15:05.570 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-23 16:15:05.571 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-23 16:15:07.911 [main] INFO  com.lzp.SpringbootMyBatisApplication - Starting SpringbootMyBatisApplication using Java 1.8.0_201 on Lzping with PID 41460 (D:\Idea_workspace\springboot_all\springboot_MyBatis\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-23 16:15:07.912 [main] INFO  com.lzp.SpringbootMyBatisApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-23 16:15:08.452 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-23 16:15:08.453 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-23 16:15:08.453 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-23 16:15:08.453 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-23 16:15:08.455 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-23 16:15:08.459 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-23 16:15:08.460 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-23 16:15:08.460 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-23 16:15:08.542 [main] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring embedded WebApplicationContext
+2022-11-23 16:15:08.542 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 608 ms
+2022-11-23 16:15:08.589 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-23 16:15:08.637 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-23 16:15:08.957 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-11-23 16:15:08.968 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springbootMybatis'
+2022-11-23 16:15:08.973 [main] INFO  com.lzp.SpringbootMyBatisApplication - Started SpringbootMyBatisApplication in 1.281 seconds (JVM running for 1.931)
+2022-11-23 16:15:25.556 [http-nio-8080-exec-7] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-23 16:15:25.557 [http-nio-8080-exec-7] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-11-23 16:15:25.557 [http-nio-8080-exec-7] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-11-23 16:15:37.915 [http-nio-8080-exec-5] DEBUG com.lzp.mapper.UserMapper.selectAll - ==>  Preparing: select * from user
+2022-11-23 16:15:37.928 [http-nio-8080-exec-5] DEBUG com.lzp.mapper.UserMapper.selectAll - ==> Parameters: 
+2022-11-23 16:15:37.939 [http-nio-8080-exec-5] DEBUG com.lzp.mapper.UserMapper.selectAll - <==      Total: 2
+2022-11-23 16:16:56.800 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-23 16:16:56.804 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-23 16:17:00.636 [main] INFO  com.lzp.SpringbootMyBatisApplication - Starting SpringbootMyBatisApplication using Java 1.8.0_201 on Lzping with PID 33960 (D:\Idea_workspace\springboot_all\springboot_MyBatis\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-23 16:17:00.638 [main] INFO  com.lzp.SpringbootMyBatisApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-23 16:17:01.181 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-23 16:17:01.182 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-23 16:17:01.182 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-23 16:17:01.182 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-23 16:17:01.184 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-23 16:17:01.189 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-23 16:17:01.189 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-23 16:17:01.189 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-23 16:17:01.264 [main] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring embedded WebApplicationContext
+2022-11-23 16:17:01.265 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 606 ms
+2022-11-23 16:17:01.311 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-23 16:17:01.359 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-23 16:17:01.676 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-11-23 16:17:01.687 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springbootMybatis'
+2022-11-23 16:17:01.693 [main] INFO  com.lzp.SpringbootMyBatisApplication - Started SpringbootMyBatisApplication in 1.287 seconds (JVM running for 1.89)
+2022-11-23 16:17:05.252 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-23 16:17:05.252 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-11-23 16:17:05.252 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-11-23 16:18:00.566 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-23 16:18:00.567 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-23 16:18:12.057 [main] INFO  com.lzp.SpringbootMyBatisApplication - Starting SpringbootMyBatisApplication using Java 1.8.0_201 on Lzping with PID 41136 (D:\Idea_workspace\springboot_all\springboot_MyBatis\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-23 16:18:12.058 [main] INFO  com.lzp.SpringbootMyBatisApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-23 16:18:12.611 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-23 16:18:12.611 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-23 16:18:12.612 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-23 16:18:12.612 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-23 16:18:12.614 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-23 16:18:12.618 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-23 16:18:12.619 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-23 16:18:12.619 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-23 16:18:12.709 [main] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring embedded WebApplicationContext
+2022-11-23 16:18:12.709 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 631 ms
+2022-11-23 16:18:12.755 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-23 16:18:12.803 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-23 16:18:13.135 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-11-23 16:18:13.146 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springbootMybatis'
+2022-11-23 16:18:13.153 [main] INFO  com.lzp.SpringbootMyBatisApplication - Started SpringbootMyBatisApplication in 1.326 seconds (JVM running for 1.954)
+2022-11-23 16:18:21.622 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-23 16:18:21.622 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-11-23 16:18:21.623 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-11-23 16:21:15.121 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-23 16:21:15.122 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-23 16:21:27.250 [main] INFO  com.lzp.SpringbootMyBatisApplication - Starting SpringbootMyBatisApplication using Java 1.8.0_201 on Lzping with PID 30472 (D:\Idea_workspace\springboot_all\springboot_MyBatis\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-23 16:21:27.252 [main] INFO  com.lzp.SpringbootMyBatisApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-23 16:21:27.805 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-23 16:21:27.805 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-23 16:21:27.805 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-23 16:21:27.805 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-23 16:21:27.807 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-23 16:21:27.812 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-23 16:21:27.812 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-23 16:21:27.812 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-23 16:21:27.885 [main] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring embedded WebApplicationContext
+2022-11-23 16:21:27.885 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 612 ms
+2022-11-23 16:21:27.928 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-23 16:21:27.971 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-23 16:21:28.266 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-11-23 16:21:28.275 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springbootMybatis'
+2022-11-23 16:21:28.282 [main] INFO  com.lzp.SpringbootMyBatisApplication - Started SpringbootMyBatisApplication in 1.255 seconds (JVM running for 1.858)
+2022-11-23 16:21:48.572 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-23 16:21:48.572 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-11-23 16:21:48.572 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-11-23 16:22:14.458 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-23 16:22:14.458 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-23 16:22:27.062 [main] INFO  com.lzp.SpringbootMyBatisApplication - Starting SpringbootMyBatisApplication using Java 1.8.0_201 on Lzping with PID 39296 (D:\Idea_workspace\springboot_all\springboot_MyBatis\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-23 16:22:27.063 [main] INFO  com.lzp.SpringbootMyBatisApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-23 16:22:27.596 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-23 16:22:27.596 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-23 16:22:27.596 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-23 16:22:27.597 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-23 16:22:27.599 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-23 16:22:27.604 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-23 16:22:27.604 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-23 16:22:27.604 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-23 16:22:27.684 [main] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring embedded WebApplicationContext
+2022-11-23 16:22:27.684 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 600 ms
+2022-11-23 16:22:27.753 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-23 16:22:27.823 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-23 16:22:28.170 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-11-23 16:22:28.183 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springbootMybatis'
+2022-11-23 16:22:28.190 [main] INFO  com.lzp.SpringbootMyBatisApplication - Started SpringbootMyBatisApplication in 1.343 seconds (JVM running for 1.928)
+2022-11-23 16:22:42.926 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-23 16:22:48.719 [main] INFO  com.lzp.SpringbootMyBatisApplication - Starting SpringbootMyBatisApplication using Java 1.8.0_201 on Lzping with PID 8432 (D:\Idea_workspace\springboot_all\springboot_MyBatis\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-23 16:22:48.721 [main] INFO  com.lzp.SpringbootMyBatisApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-23 16:22:49.228 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-23 16:22:49.228 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-23 16:22:49.228 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-23 16:22:49.228 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-23 16:22:49.229 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-23 16:22:49.233 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-23 16:22:49.233 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-23 16:22:49.234 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-23 16:22:49.304 [main] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring embedded WebApplicationContext
+2022-11-23 16:22:49.305 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 565 ms
+2022-11-23 16:22:49.358 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-23 16:22:49.415 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-23 16:22:49.716 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-11-23 16:22:49.725 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springbootMybatis'
+2022-11-23 16:22:49.731 [main] INFO  com.lzp.SpringbootMyBatisApplication - Started SpringbootMyBatisApplication in 1.223 seconds (JVM running for 1.843)
+2022-11-23 16:24:02.488 [http-nio-8080-exec-5] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-23 16:24:02.489 [http-nio-8080-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-11-23 16:24:02.489 [http-nio-8080-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-11-23 16:24:02.605 [http-nio-8080-exec-5] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - ==>  Preparing: SELECT count(0) FROM emp
+2022-11-23 16:24:02.627 [http-nio-8080-exec-5] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - ==> Parameters: 
+2022-11-23 16:24:02.639 [http-nio-8080-exec-5] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - <==      Total: 1
+2022-11-23 16:24:02.642 [http-nio-8080-exec-5] DEBUG com.lzp.mapper.EmpMapper.findAll - ==>  Preparing: select * from emp LIMIT ?, ?
+2022-11-23 16:24:02.643 [http-nio-8080-exec-5] DEBUG com.lzp.mapper.EmpMapper.findAll - ==> Parameters: 5(Long), 5(Integer)
+2022-11-23 16:24:02.646 [http-nio-8080-exec-5] DEBUG com.lzp.mapper.EmpMapper.findAll - <==      Total: 5
+2022-11-23 16:25:05.990 [http-nio-8080-exec-9] DEBUG com.lzp.mapper.UserMapper.selectAll - ==>  Preparing: select * from user
+2022-11-23 16:25:05.991 [http-nio-8080-exec-9] DEBUG com.lzp.mapper.UserMapper.selectAll - ==> Parameters: 
+2022-11-23 16:25:05.992 [http-nio-8080-exec-9] DEBUG com.lzp.mapper.UserMapper.selectAll - <==      Total: 2
+2022-11-23 16:25:12.644 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.UserMapper.selectAll - ==>  Preparing: select * from user
+2022-11-23 16:25:12.644 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.UserMapper.selectAll - ==> Parameters: 
+2022-11-23 16:25:12.645 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.UserMapper.selectAll - <==      Total: 2
+2022-11-23 16:25:15.779 [http-nio-8080-exec-8] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - ==>  Preparing: SELECT count(0) FROM emp
+2022-11-23 16:25:15.780 [http-nio-8080-exec-8] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - ==> Parameters: 
+2022-11-23 16:25:15.781 [http-nio-8080-exec-8] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - <==      Total: 1
+2022-11-23 16:25:15.782 [http-nio-8080-exec-8] DEBUG com.lzp.mapper.EmpMapper.findAll - ==>  Preparing: select * from emp LIMIT ?, ?
+2022-11-23 16:25:15.783 [http-nio-8080-exec-8] DEBUG com.lzp.mapper.EmpMapper.findAll - ==> Parameters: 5(Long), 5(Integer)
+2022-11-23 16:25:15.785 [http-nio-8080-exec-8] DEBUG com.lzp.mapper.EmpMapper.findAll - <==      Total: 5
+2022-11-23 16:26:14.103 [http-nio-8080-exec-4] DEBUG com.lzp.mapper.UserMapper.selectAll - ==>  Preparing: select * from user
+2022-11-23 16:26:14.103 [http-nio-8080-exec-4] DEBUG com.lzp.mapper.UserMapper.selectAll - ==> Parameters: 
+2022-11-23 16:26:14.104 [http-nio-8080-exec-4] DEBUG com.lzp.mapper.UserMapper.selectAll - <==      Total: 2
+2022-11-23 16:26:15.043 [http-nio-8080-exec-10] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - ==>  Preparing: SELECT count(0) FROM emp
+2022-11-23 16:26:15.043 [http-nio-8080-exec-10] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - ==> Parameters: 
+2022-11-23 16:26:15.044 [http-nio-8080-exec-10] DEBUG com.lzp.mapper.EmpMapper.findAll_COUNT - <==      Total: 1
+2022-11-23 16:26:15.044 [http-nio-8080-exec-10] DEBUG com.lzp.mapper.EmpMapper.findAll - ==>  Preparing: select * from emp LIMIT ?, ?
+2022-11-23 16:26:15.045 [http-nio-8080-exec-10] DEBUG com.lzp.mapper.EmpMapper.findAll - ==> Parameters: 5(Long), 5(Integer)
+2022-11-23 16:26:15.046 [http-nio-8080-exec-10] DEBUG com.lzp.mapper.EmpMapper.findAll - <==      Total: 5
+2022-11-23 16:44:35.391 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

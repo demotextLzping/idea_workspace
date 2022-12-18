@@ -1,0 +1,5 @@
+com\lzp\mapper\UserMapper.class
+com\lzp\pojo\User.class
+com\lzp\service\impl\UserServiceImpl.class
+com\lzp\service\UserService.class
+com\lzp\controller\FileUploadController.class

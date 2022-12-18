@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ajax:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f6673a37-5410-4b3b-b652-675fdc603b0f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../HttpClientDemo/src/main/java/com/lzp/HttpClientDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HttpClientDemo/src/main/java/com/lzp/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HttpClientDemo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HttpClientDemo/src/test/java/com/lzp/httpclient/HttpClientDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HttpClientServer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HttpClientServer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HttpClientServer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HttpClientServer/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HttpClientServer/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HttpClientServer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HttpClientServer/src/main/java/com/lzp/HttpClientServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HttpClientServer/src/main/java/com/lzp/controller/demoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HttpClientServer/src/main/java/com/lzp/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HttpClientServer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HttpClientServer/src/test/java/com/lzp/httpclientserver/HttpClientServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAttenClass/src/com/lzp/test5/test01/NewPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAttenClass/src/com/lzp/test5/test01/OldPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAttenClass/src/com/lzp/test5/test01/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAttenClass/src/com/lzp/test5/test02/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAttenClass/src/com/lzp/test5/test02/Bear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAttenClass/src/com/lzp/test5/test02/Panda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAttenClass/src/com/lzp/test5/test02/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAttenClass/src/com/lzp/test5/test03/Audi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAttenClass/src/com/lzp/test5/test03/SmartAudi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAttenClass/src/com/lzp/test5/test03/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ajax_jQuery_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ajax_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_8_0__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzp/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzp/servlet/MyServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzp/servlet/TestServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzp/servlet/unameCheckServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/gson-2.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery-3.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/testJson.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajaxq/ajax_jQuery/ajax_jQuery.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajaxq/ajax_jQuery/src/lzp/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajaxq/ajax_jQuery/src/lzp/servlet/MyServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajaxq/ajax_jQuery/src/lzp/servlet/loadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajaxq/ajax_jQuery/src/lzp/servlet/unameCheckServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajaxq/ajax_jQuery/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajaxq/ajax_jQuery/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajaxq/ajax_jQuery/web/js/jquery-3.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajaxq/ajax_jQuery/web/testLoad.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajaxq/ajax_jQuery/web/testLoad2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../attenClass/src/com/study/study4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../attenClass/src/com/study/study5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../attenClass/src/com/study/study5/demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../attenClass/src/com/study/study6/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../attenClass/src/com/study/study7/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jedisTest/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jedisTest/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jedisTest/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jedisTest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jedisTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jedisTest/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jedisTest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jedisTest/src/main/java/com/lzp/jedis/JedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/java/com/lzp/common/GlobalException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/java/com/lzp/common/JacksonObjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/java/com/lzp/common/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/java/com/lzp/config/MyBatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/java/com/lzp/config/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/java/com/lzp/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/java/com/lzp/filter/loginCheckFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/java/com/lzp/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/java/com/lzp/pojo/AddressBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/java/com/lzp/pojo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/java/com/lzp/pojo/Dish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/java/com/lzp/pojo/DishFlavor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/java/com/lzp/pojo/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/java/com/lzp/pojo/OrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/java/com/lzp/pojo/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/java/com/lzp/pojo/Setmeal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/java/com/lzp/pojo/SetmealDish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/java/com/lzp/pojo/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/java/com/lzp/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/java/com/lzp/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/java/com/lzp/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/api/category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/api/combo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/api/food.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/api/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/api/member.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/api/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/images/404-images/404-cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/images/404-images/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/images/icons/btn_back@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/images/icons/btn_clean@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/images/icons/btn_close@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/images/icons/icon_index.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/images/icons/icon_upload@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/images/icons/jine_m-2@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/images/icons/renshu@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/images/icons/xiangmujine@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/images/img_brand01@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/images/img_denglu_bj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/images/login/login-l.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/images/login/login-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/images/login/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/images/noImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/js/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/js/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/page/category/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/page/combo/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/page/combo/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/page/food/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/page/food/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/page/login/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/page/member/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/page/member/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/page/order/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/plugins/axios/axios.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/plugins/element-ui/fonts/element-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/plugins/element-ui/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/plugins/element-ui/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/plugins/element-ui/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/plugins/vue/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/styles/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/styles/fonts/element-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/styles/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/styles/icon/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/styles/icon/demo_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/styles/icon/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/styles/icon/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/styles/icon/iconfont.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/styles/icon/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/styles/icon/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/styles/icon/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/styles/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/backend/styles/page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/api/address.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/api/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/api/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/api/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/fonts/DIN-Bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/fonts/DIN-Medium.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/fonts/PingFangSC-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/fonts/PingFangSC-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/fonts/PingFangSC-Semibold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/images/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/images/cart_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/images/checked_false.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/images/checked_true.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/images/demo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/images/demo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/images/demo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/images/demo4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/images/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/images/favico.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/images/headPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/images/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/images/location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/images/locations.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/images/mainBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/images/money.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/images/noImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/images/no_order.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/images/no_wifi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/images/orders.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/images/subtract.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/images/time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/images/women.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/js/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/js/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/js/vant.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/page/add-order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/page/address-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/page/address.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/page/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/page/no-wify.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/page/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/page/pay-success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/page/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/styles/add-order.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/styles/address-edit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/styles/address.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/styles/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/styles/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/styles/no-wify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/styles/order.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/styles/pay-success.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/styles/user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_demo/src/main/resources/front/styles/vant.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/common/BaseContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/common/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/common/GlobalException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/common/JacksonObjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/common/MyMetaObjectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/common/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/config/MyBatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/config/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/controller/CommonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/controller/DishController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/dto/DishDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/filter/loginCheckFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/mapper/DishFlavorMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/mapper/DishMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/mapper/SetmealMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/pojo/AddressBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/pojo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/pojo/Dish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/pojo/DishFlavor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/pojo/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/pojo/OrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/pojo/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/pojo/Setmeal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/pojo/SetmealDish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/pojo/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/service/DishFlavorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/service/DishService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/service/SetmealService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/service/impl/DishFlavorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/service/impl/DishServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/java/com/lzp/service/impl/SetmealServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/api/category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/api/combo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/api/food.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/api/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/api/member.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/api/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/images/404-images/404-cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/images/404-images/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/images/icons/btn_back@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/images/icons/btn_clean@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/images/icons/btn_close@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/images/icons/icon_index.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/images/icons/icon_upload@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/images/icons/jine_m-2@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/images/icons/renshu@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/images/icons/xiangmujine@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/images/img_brand01@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/images/img_denglu_bj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/images/login/login-l.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/images/login/login-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/images/login/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/images/noImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/js/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/js/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/page/category/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/page/combo/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/page/combo/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/page/demo/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/page/food/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/page/food/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/page/login/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/page/member/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/page/member/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/page/order/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/plugins/axios/axios.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/plugins/element-ui/fonts/element-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/plugins/element-ui/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/plugins/element-ui/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/plugins/element-ui/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/plugins/vue/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/styles/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/styles/fonts/element-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/styles/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/styles/icon/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/styles/icon/demo_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/styles/icon/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/styles/icon/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/styles/icon/iconfont.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/styles/icon/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/styles/icon/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/styles/icon/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/styles/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/backend/styles/page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/api/address.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/api/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/api/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/api/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/fonts/DIN-Bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/fonts/DIN-Medium.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/fonts/PingFangSC-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/fonts/PingFangSC-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/fonts/PingFangSC-Semibold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/images/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/images/cart_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/images/checked_false.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/images/checked_true.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/images/demo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/images/demo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/images/demo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/images/demo4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/images/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/images/favico.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/images/headPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/images/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/images/location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/images/locations.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/images/mainBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/images/money.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/images/noImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/images/no_order.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/images/no_wifi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/images/orders.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/images/subtract.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/images/time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/images/women.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/js/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/js/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/js/vant.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/page/add-order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/page/address-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/page/address.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/page/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/page/no-wify.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/page/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/page/pay-success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/page/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/styles/add-order.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/styles/address-edit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/styles/address.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/styles/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/styles/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/styles/no-wify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/styles/order.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/styles/pay-success.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/styles/user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reggie_take_out/src/main/resources/front/styles/vant.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-redis/src/main/java/com/lzp/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-redis/src/main/java/com/lzp/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-redis/src/main/java/com/lzp/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-redis/src/main/java/com/lzp/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-redis/src/main/java/com/lzp/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-redis/src/main/java/com/lzp/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-redis/src/main/resources/com/lzp/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-redis/src/main/resources/templates/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/catalina.base_IS_UNDEFINED/log/TestWeb.log.2022-11-26.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/catalina.base_IS_UNDEFINED/log/TestWeb.log.2022-11-27.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/catalina.base_IS_UNDEFINED/log/TestWeb.log.2022-11-28.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-fileuploaad/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-fileuploaad/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-fileuploaad/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-fileuploaad/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-fileuploaad/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-fileuploaad/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-fileuploaad/src/main/java/com/lzp/SpringbootFileuploaadApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-fileuploaad/src/main/java/com/lzp/controller/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-fileuploaad/src/main/java/com/lzp/controller/successController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-fileuploaad/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-fileuploaad/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-fileuploaad/src/main/resources/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-fileuploaad/src/main/resources/static/regist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-fileuploaad/src/test/java/com/lzp/springbootfileuploaad/SpringbootFileuploaadApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/src/main/java/com/lzp/SpringbootMybatisplusApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/src/main/java/com/lzp/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/src/main/java/com/lzp/mapper/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/src/main/java/com/lzp/pojo/Dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/src/main/java/com/lzp/serice/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/src/main/java/com/lzp/serice/impl/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/src/test/java/com/lzp/SpringbootMybatisplusApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/src/test/java/com/lzp/SpringbootMybatisplusApplicationTests2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/src/test/java/com/lzp/SpringbootMybatisplusApplicationTests3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/src/test/java/com/lzp/SpringbootMybatisplusApplicationTests4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/src/test/java/com/lzp/SpringbootMybatisplusApplicationTests5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/springboot-mybatisplus/src/test/java/com/lzp/SpringbootMybatisplusApplicationTests6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/src/main/java/com/lzp/SpringbootAnnoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/src/main/java/com/lzp/config/MyInterceptorRegist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/src/main/java/com/lzp/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/src/main/java/com/lzp/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/src/main/java/com/lzp/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/src/main/resources/static/css/demoCss.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/src/main/resources/static/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/src/main/resources/static/img/demoImg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/src/main/resources/static/img/photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/src/main/resources/static/js/demoJs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/src/main/resources/static/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/src/main/resources/templates/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootAnno/src/test/java/com/lzp/springbootanno/SpringbootAnnoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/catalina.base_IS_UNDEFINED/log/TestWeb.log.2022-11-23.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/catalina.base_IS_UNDEFINED/log/TestWeb.log.2022-11-24.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/catalina.base_IS_UNDEFINED/log/TestWeb.log.2022-11-26.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot01/src/main/java/com/lzp/Springboot01Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot01/src/main/java/com/lzp/controller/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot02/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot02/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot02/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot02/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot02/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot02/src/main/java/com/lzp/Springboot02Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot02/src/main/java/com/lzp/controller/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot02/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot02/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot02/src/main/resources/public/demoPublic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot02/src/main/resources/static/photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot02/src/main/resources/templates/demoTemplates.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot02/src/test/java/com/lzp/springboot02/Springboot02ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/catalina.base_IS_UNDEFINED/log/TestWeb.log.2022-11-26.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/src/main/java/com/lzp/Springboot03Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/src/main/java/com/lzp/config/MyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/src/main/java/com/lzp/controller/ThymeleafController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/src/main/java/com/lzp/interceptor/MyInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/src/main/java/com/lzp/interceptor/MyInterceptorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/src/main/java/com/lzp/mapper/EmpMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/src/main/java/com/lzp/pojo/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/src/main/java/com/lzp/service/EmpService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/src/main/java/com/lzp/service/impl/EmpServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/src/main/resources/mybatis/EmpMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot03/src/test/java/com/lzp/springboot03/Springboot03ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/catalina.base_IS_UNDEFINED/log/TestWeb.log.2022-11-23.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/java/com/lzp/SpringbootMyBatisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/java/com/lzp/controller/EmpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/java/com/lzp/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/java/com/lzp/controller/freeMarkerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/java/com/lzp/mapper/EmpMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/java/com/lzp/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/java/com/lzp/pojo/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/java/com/lzp/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/java/com/lzp/service/EmpService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/java/com/lzp/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/java/com/lzp/service/impl/EmpServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/java/com/lzp/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/resources/mybatis/EmpMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/resources/mybatis/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/resources/static/photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/resources/templates/show.ftlh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/resources/templates/showEmp.ftlh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/resources/templates/showEmpIf.ftlh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/main/resources/templates/showEmpMap.ftlh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_MyBatis/src/test/java/com/example/springboot_mybatis/SpringbootMyBatisApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_all/springboot_all.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/.idea/artifacts/springmvc_02_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/java/com/lzp/controller/AjaxController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/java/com/lzp/controller/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/java/com/lzp/controller/MyController2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/java/com/lzp/controller/MyServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/java/com/lzp/controller/MyServlet2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/java/com/lzp/controller/PathController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/java/com/lzp/controller/TestRestFul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/java/com/lzp/controller/testChangeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/java/com/lzp/controller/testDataController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/java/com/lzp/controller/testPOJOController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/java/com/lzp/controller/testResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/java/com/lzp/pojo/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/java/com/lzp/pojo/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/java/com/lzp/util/StringToDateConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/webapp/WEB-INF/view/first.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/webapp/WEB-INF/view/staticPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/webapp/WEB-INF/view/testPOJOPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/webapp/forwardPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/webapp/redirectPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/webapp/static/css/aaa.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/webapp/static/img/pho.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/webapp/static/js/bbb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/webapp/testDataPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/main/webapp/testRestPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_02/src/test/java/com/lzp/test/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/springmvc_all.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/java/com/lzp/controller/ScopeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/java/com/lzp/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/java/com/lzp/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/java/com/lzp/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/java/com/lzp/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/java/com/lzp/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/resources/com/lzp/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/webapp/failed.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/webapp/showDataPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/main/webapp/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_01/src/test/java/com/lzp/test/TestFindUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/java/com/lzp/config/MyHandlerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/java/com/lzp/config/globalException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/java/com/lzp/controller/ExceptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/java/com/lzp/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/java/com/lzp/exceptionHandler/globalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/java/com/lzp/interceptor/MyInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/java/com/lzp/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/java/com/lzp/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/java/com/lzp/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/java/com/lzp/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/resources/com/lzp/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/webapp/exception.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/webapp/failed.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/main/webapp/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/ssm_02/src/test/java/com/lzp/test/TestFindUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/java/com/lzp/controller/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/java/com/lzp/controller/PlayerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/java/com/lzp/mapper/PlayerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/java/com/lzp/pojo/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/java/com/lzp/service/PlayerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/java/com/lzp/service/impl/PlayerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/resources/com/lzp/mapper/PlayerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/webapp/html/showPlayer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/webapp/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/webapp/js/photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc_all/uploading/src/main/webapp/showPlayer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAttenClass/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAttenClass/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAttenClass/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAttenClass/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaImprove/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaImprove/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatisMapper/src/main/resources/com.lzp.mapper/DeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatisMapper/src/main/resources/com.lzp.mapper/DeptMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMsb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMsb/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMsb/spring_tx_01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMsb/spring_tx_01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMsb/spring_tx_01/src/test/java/com/lzp/test/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMsb/spring_tx_01/src/test/java/com/lzp/test/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../attenClass/out/production/attenClass/com/study/study3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../attenClass/out/production/attenClass/com/study/study3/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_ioc_01/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_ioc_01/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\.m2\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.8.6" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2HANdiAZ7kPc6lsd08UQvPgnKc8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Idea_workspace/ajax&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.17471264&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Idea_workspace\ajax" />
+      <recent name="D:\Idea_workspace\ajaxq\ajax_jQuery\web" />
+      <recent name="D:\Idea_workspace\ajaxq\ajax_jQuery\src" />
+      <recent name="D:\Idea_workspace\ajax\web\WEB-INF\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Idea_workspace\ajax\web" />
+      <recent name="D:\Idea_workspace\ajax\web\WEB-INF" />
+      <recent name="D:\Idea_workspace\ajax\web\WEB-INF\lib" />
+      <recent name="D:\Idea_workspace\ajax\web\js" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8">
+    <configuration name="Tomcat 8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/ajax" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ajax:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ajax" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="42e505ec-b0bd-48f3-ac90-a18b79a39ae5" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49311" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ajax:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Tomcat_jQuery" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ajax_jQuery:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ajax_jQuery" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="d372a7f4-72a6-41ef-83da-030901c9143c" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50346" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ajax_jQuery:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat 8" />
+      <item itemvalue="Tomcat Server.Tomcat_jQuery" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6673a37-5410-4b3b-b652-675fdc603b0f" name="Changes" comment="" />
+      <created>1667724017147</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667724017147</updated>
+      <workItem from="1667724018541" duration="531000" />
+      <workItem from="1668689192934" duration="118000" />
+      <workItem from="1668732600226" duration="8602000" />
+      <workItem from="1668768004861" duration="7524000" />
+      <workItem from="1668845133936" duration="119000" />
+      <workItem from="1670320627378" duration="271000" />
+      <workItem from="1670323869278" duration="885000" />
+      <workItem from="1670324829237" duration="868000" />
+      <workItem from="1670907052618" duration="264000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

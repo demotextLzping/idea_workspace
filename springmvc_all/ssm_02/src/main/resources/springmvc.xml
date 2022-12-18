@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xmlns:lang="http://www.springframework.org/schema/lang"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/lang
+       http://www.springframework.org/schema/lang/spring-lang.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/mvc
+       http://www.springframework.org/schema/mvc/spring-mvc.xsd
+       http://www.springframework.org/schema/tx
+       http://www.springframework.org/schema/tx/spring-tx.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd
+       http://www.springframework.org/schema/util
+       https://www.springframework.org/schema/util/spring-util.xsd">
+
+    <!--扫描controller层-->
+    <context:component-scan base-package="com.lzp.controller"/>
+
+    <!--   处理器映射器和处理器适配器配置简化 -->
+    <!--    开启mvc注解驱动，指定配置处理器映射器和处理器适配器-->
+    <mvc:annotation-driven/>
+    <!--    配置视图解析器-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <!--        &lt;!&ndash;指定路径的前缀和后缀&ndash;&gt;-->
+        <!--        <property name="prefix" value="/WEB-INF/view/"/>-->
+        <!--        <property name="suffix" value=".jsp"/>-->
+    </bean>
+
+    <!--    注册拦截器-->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/login.action"/>
+            <bean id="myInterceptor" class="com.lzp.interceptor.MyInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+<!--    <bean id="exceptionResolver" class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">-->
+<!--        <property name="exceptionMappings">-->
+<!--            <props>-->
+<!--                <prop key="java.lang.ArithmeticException">redirect:/exception.jsp</prop>-->
+<!--                <prop key="java.lang.NullPointerException">redirect:/exception.jsp</prop>-->
+<!--            </props>-->
+<!--        </property>-->
+<!--    </bean>-->
+
+</beans>

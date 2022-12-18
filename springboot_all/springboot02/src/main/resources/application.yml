@@ -1,0 +1,20 @@
+server:
+  port: 8090
+  servlet:
+    context-path: /springboot_02
+
+##配置对象数据类型
+#person:
+#  name: zs
+#  age: 12
+#  sex: 男
+##  或者使用json格式配置
+#person2: { name: ls, age: 13,sex: 女 }
+#
+##配置数据类型数据
+#city:
+#  -beijing
+#  -shanghai
+#  -hubei
+##  json格式
+#city2: { beijing,shanghai,hubei }

@@ -1,0 +1,56 @@
+2022-11-20 21:32:12.885 [main] INFO  com.lzp.SpringbootMyBatisApplication - Starting SpringbootMyBatisApplication using Java 1.8.0_201 on Lzping with PID 29892 (D:\Idea_workspace\springboot_all\springboot_MyBatis\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-20 21:32:12.888 [main] INFO  com.lzp.SpringbootMyBatisApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-20 21:32:13.435 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-20 21:32:13.437 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-20 21:32:13.441 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-20 21:32:13.441 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-20 21:32:13.443 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-20 21:32:13.448 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-20 21:32:13.448 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-20 21:32:13.448 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-20 21:32:13.525 [main] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring embedded WebApplicationContext
+2022-11-20 21:32:13.525 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 613 ms
+2022-11-20 21:32:13.872 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-11-20 21:32:13.883 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springbootMybatis'
+2022-11-20 21:32:13.890 [main] INFO  com.lzp.SpringbootMyBatisApplication - Started SpringbootMyBatisApplication in 1.216 seconds (JVM running for 1.828)
+2022-11-20 21:32:19.769 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-20 21:32:19.769 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-11-20 21:32:19.770 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-11-20 21:32:19.801 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-11-20 21:32:19.882 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-11-20 21:32:19.888 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.UserMapper.selectAll - ==>  Preparing: select * from user
+2022-11-20 21:32:19.901 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.UserMapper.selectAll - ==> Parameters: 
+2022-11-20 21:32:19.917 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.UserMapper.selectAll - <==      Total: 2
+2022-11-20 21:32:52.275 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-11-20 21:32:52.281 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-11-20 21:32:58.609 [main] INFO  com.lzp.SpringbootMyBatisApplication - Starting SpringbootMyBatisApplication using Java 1.8.0_201 on Lzping with PID 18556 (D:\Idea_workspace\springboot_all\springboot_MyBatis\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-20 21:32:58.611 [main] INFO  com.lzp.SpringbootMyBatisApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-20 21:32:59.303 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-20 21:32:59.416 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 774 ms
+2022-11-20 21:32:59.822 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springbootMybatis'
+2022-11-20 21:32:59.829 [main] INFO  com.lzp.SpringbootMyBatisApplication - Started SpringbootMyBatisApplication in 1.462 seconds (JVM running for 2.299)
+2022-11-20 21:33:03.323 [main] INFO  com.lzp.SpringbootMyBatisApplication - Starting SpringbootMyBatisApplication using Java 1.8.0_201 on Lzping with PID 19724 (D:\Idea_workspace\springboot_all\springboot_MyBatis\target\classes started by Lzping in D:\Idea_workspace\springboot_all)
+2022-11-20 21:33:03.326 [main] INFO  com.lzp.SpringbootMyBatisApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-20 21:33:03.925 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-20 21:33:03.926 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2022-11-20 21:33:03.926 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-11-20 21:33:03.926 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-11-20 21:33:03.928 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2022-11-20 21:33:03.933 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-20 21:33:03.933 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-20 21:33:03.935 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-20 21:33:04.013 [main] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring embedded WebApplicationContext
+2022-11-20 21:33:04.013 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 665 ms
+2022-11-20 21:33:04.355 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-11-20 21:33:04.365 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springbootMybatis'
+2022-11-20 21:33:04.371 [main] INFO  com.lzp.SpringbootMyBatisApplication - Started SpringbootMyBatisApplication in 1.286 seconds (JVM running for 1.945)
+2022-11-20 21:33:16.363 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/springbootMybatis] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-20 21:33:16.363 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-11-20 21:33:16.364 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-11-20 21:33:16.380 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-11-20 21:33:16.445 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-11-20 21:33:16.464 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.UserMapper.selectAll - ==>  Preparing: select * from user
+2022-11-20 21:33:16.476 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.UserMapper.selectAll - ==> Parameters: 
+2022-11-20 21:33:16.488 [http-nio-8080-exec-1] DEBUG com.lzp.mapper.UserMapper.selectAll - <==      Total: 2
+2022-11-20 21:33:59.729 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-11-20 21:33:59.736 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

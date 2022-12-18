@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        #empTable {
+            width: 80%;
+            border: 1px solid pink;
+            margin: 0px auto;
+        }
+
+        #empTable th, td {
+            border: 1px solid gray;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<!--this is index page<br>-->
+<!--<span th:text="pageMessage"></span><br>-->
+<!--<span th:text="${message}"></span><br>-->
+<!--<hr>-->
+<!--&lt;!&ndash;input&ndash;&gt;-->
+<!--<input type="text" th:value="pageMessage"/>-->
+<!--<input type="text" th:value="${message}"/>-->
+<!--table-->
+<table id="empTable">
+    <tr>
+        <th>索引</th>
+        <th>序号</th>
+        <th>总人数</th>
+        <th>奇数索引</th>
+        <th>偶数索引</th>
+        <th>开始？</th>
+        <th>结束？</th>
+        <th>工号</th>
+        <th>姓名</th>
+        <th>岗位</th>
+        <th>上级</th>
+        <th>入职日期</th>
+        <th>薪资</th>
+        <th>补助</th>
+        <th>部门</th>
+    </tr>
+    <tr th:each="emp,i:${empList}">
+        <td th:text="${i.index}"></td>
+        <td th:text="${i.count}"></td>
+        <td th:text="${i.size}"></td>
+        <td th:text="${i.even}"></td>
+        <td th:text="${i.odd}"></td>
+        <td th:text="${i.first}"></td>
+        <td th:text="${i.last}"></td>
+        <td th:text="${emp.empno}"></td>
+        <td th:text="${emp.ename}"></td>
+        <td th:text="${emp.job}"></td>
+        <td th:text="${emp.mgr}"></td>
+        <td th:text="${emp.hiredate}"></td>
+        <td th:text="${#strings.isEmpty(emp.sal)}"></td>
+        <td th:text="${#strings.isEmpty(emp.comm)}"></td>
+        <td th:text="${emp.deptno}"></td>
+    </tr>
+</table>
+new words ...<br>
+new words2 ...
+</body>
+</html>
